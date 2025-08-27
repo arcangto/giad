@@ -19,7 +19,7 @@ function Hero() {
 
   useEffect(() => {
     // Animación de entrada escalonada
-    const timeline = anime.timeline({
+    const timeline = animate.timeline({
       easing: "easeOutExpo",
       duration: 1000,
     });
