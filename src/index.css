@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* === Estilos globales base === */
+:root {
+  --color-bg: #ffffff;
+  --color-text: #111827;
+  --color-accent: #2563eb; /* azul GIAD provisional */
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  @apply bg-white text-gray-900 antialiased;
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+/* Links */
+a {
+  @apply text-blue-600 hover:text-blue-800 transition-colors;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  @apply font-bold text-gray-900 tracking-tight;
+}
