@@ -1,5 +1,5 @@
 import { useState, useRef, useEffect } from "react";
-import { animate, createScope, createSpring, createDraggable } from 'animejs';
+import { animate, createScope, createSpring, createDraggable } from 'animatejs';
 
 export default function Button3D({ 
   children, 
@@ -71,7 +71,7 @@ export default function Button3D({
     if (!buttonRef.current) return;
 
     if (isPressed && !disabled) {
-      anime({
+      animate({
         targets: buttonRef.current,
         translateY: -1,
         scale: 0.98,
