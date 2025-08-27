@@ -49,7 +49,7 @@ export default function Button3D({
       });
     } else {
       // Animación de salida
-      anime({
+      animate({
         targets: buttonRef.current,
         translateY: 0,
         scale: 1,
