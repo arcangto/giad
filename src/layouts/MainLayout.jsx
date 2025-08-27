@@ -4,7 +4,7 @@ import Footer from "../layouts/Footer";
 import { FaWhatsapp } from "react-icons/fa";
 import { AnimatePresence, motion } from "framer-motion";
 import InteractiveScene from "../components/3d/InteractiveScene";
-import anime from "animejs";
+// import anime from "animejs";
 import { useEffect, useRef } from "react";
 
 export default function MainLayout() {
