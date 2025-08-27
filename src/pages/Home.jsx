@@ -7,7 +7,7 @@ import Button3D from "../components/ui/Button3D";
 import Card3D from "../components/ui/Card3D";
 import useApi from "../hooks/useApi"; // Importamos el hook
 import { ErrorMsg, SkeletonGrid } from "../components/ui/Feedback";
-import anime from "animejs";
+import { animate, createScope, createSpring, createDraggable } from 'animejs';
 import { useEffect, useRef } from "react";
 
 // --- Componente Hero (con fondo claro) ---
