@@ -57,7 +57,7 @@ export default function Button3D({
         easing: "easeOutCubic",
       });
 
-      anime({
+      animate({
         targets: shadowRef.current,
         opacity: 0.15,
         scale: 1,
