@@ -1,5 +1,5 @@
 import { useState, useRef, useEffect } from "react";
-import anime from "animejs";
+import { animate, createScope, createSpring, createDraggable } from 'animejs';
 
 export default function Button3D({ 
   children, 
