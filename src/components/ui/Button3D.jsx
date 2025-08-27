@@ -32,7 +32,7 @@ export default function Button3D({
 
     if (isHovered && !disabled) {
       // Animación de hover
-      anime({
+      animate({
         targets: buttonRef.current,
         translateY: -4,
         scale: 1.05,
@@ -40,7 +40,7 @@ export default function Button3D({
         easing: "easeOutCubic",
       });
 
-      anime({
+      animate({
         targets: shadowRef.current,
         opacity: 0.3,
         scale: 1.1,
